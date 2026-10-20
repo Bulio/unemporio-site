@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_p/
+Disallow: /da/
+Sitemap: https://unemporio.com/sitemap.xml
