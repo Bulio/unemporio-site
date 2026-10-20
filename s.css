@@ -158,6 +158,8 @@ details.nome{font-size:13px;color:var(--de);margin-top:10px}details.nome summary
 .tess svg{opacity:.55}
 .tess.gr b{font-size:clamp(28px,5vw,44px)}
 @media(max-width:640px){.card .tess b{font-size:12.5px}.card .tess svg{width:24px;height:24px}}
+.lay>*,.gr>*,.quad>*,.sch>*{min-width:0}   /* ⛔ 20/10: senza, la fila dei reparti allargava la pagina a 519 px su telefono */
+html,body{overflow-x:hidden}
 :focus-visible{outline:3px solid #ff9900;outline-offset:2px;border-radius:4px}
 .catm{display:none}
 @media(max-width:640px){
