@@ -159,6 +159,9 @@ details.nome{font-size:13px;color:var(--de);margin-top:10px}details.nome summary
 .tess{flex-direction:column;gap:6px;padding:8px;text-align:center}
 .tess b{font-size:18px;letter-spacing:-.01em;color:#1f2933;max-width:92%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .tess svg{opacity:.55}
+.ill{background:#faf6ee;position:relative;padding:0}
+.ill img{width:100%;height:100%;object-fit:contain}
+.ill .dis{position:absolute;right:6px;bottom:5px;font-size:10.5px;color:#6b7280;background:rgba(255,255,255,.8);padding:1px 6px;border-radius:8px}
 .tess.gr b{font-size:clamp(28px,5vw,44px)}
 @media(max-width:640px){.card .tess b{font-size:12.5px}.card .tess svg{width:24px;height:24px}}
 .lay>*,.gr>*,.quad>*,.sch>*{min-width:0}   /* ⛔ 20/10: senza, la fila dei reparti allargava la pagina a 519 px su telefono */
