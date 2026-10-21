@@ -119,6 +119,9 @@ h3.s{font-size:20px;margin:22px 0 10px;scroll-margin-top:60px}
 .aud{background:linear-gradient(100deg,#f7931e,#e8505b);color:#fff;margin-top:20px;padding:26px 24px;display:flex;align-items:center;gap:22px;flex-wrap:wrap;box-shadow:var(--om)}
 .aud h2{font-size:24px}.aud p{opacity:.95;margin-top:4px;max-width:640px}
 .aud .bt{background:#fff;border-color:#fff;margin-left:auto}
+.abb{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:12px}
+.ab{display:flex;flex-direction:column;gap:6px;border:1px solid var(--bo);border-radius:10px;padding:16px;color:var(--te);background:var(--ca)}
+.ab b{font-size:18px}.ab .pc{font-size:13px;color:var(--de)}.ab .go{margin-top:auto;color:var(--li);font-weight:600}
 .cn{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-top:14px}
 .cn a{background:var(--ca);padding:16px;box-shadow:var(--om);color:var(--te)}
 .cn b{display:block;font-size:16px}.cn span{color:var(--de);font-size:13.5px}
