@@ -21,8 +21,6 @@ background-size:cover;background-position:center}
 .eroe-c p{font-size:16px;opacity:.95;max-width:720px}
 .striscia{height:110px;border-radius:6px;background-size:cover;background-position:center;margin:4px 0 12px}
 @media(max-width:640px){.eroe-c{min-height:170px}.striscia{height:80px}}
-.avviso{background:#232f3e;color:#fff;font-size:13px;line-height:1.35;text-align:center;padding:7px 14px}
-.avviso a{color:#febd69;font-weight:700}
 .fiducia{background:var(--ca);border-bottom:1px solid var(--bo);font-size:13px;color:var(--de)}
 .fiducia .w{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;padding:7px 14px}
 @media(max-width:640px){.fiducia .w{gap:6px 14px;font-size:12.5px;justify-content:flex-start}}
