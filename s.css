@@ -163,6 +163,36 @@ details.nome{font-size:13px;color:var(--de);margin-top:10px}details.nome summary
 .txt{background:var(--ca);padding:24px;box-shadow:var(--om);max-width:860px;margin-top:16px;font-size:16px;line-height:1.6}
 .txt h1{font-size:28px;margin-bottom:10px}.txt h3{margin:18px 0 6px}
 
+/* ── guide (22/10/2026) ── */
+.gd{max-width:880px;margin:0 auto}
+.gd .meta{font-size:14px;color:var(--de);margin:10px 0 4px}
+.gd .aff{background:rgba(255,190,40,.16);border:1px solid rgba(240,190,60,.55);color:var(--te);border-radius:8px;padding:10px 14px;font-size:14.5px;margin:10px 0 14px;line-height:1.5}
+.gd .corpo{background:var(--ca);box-shadow:var(--om);padding:22px 24px;font-size:17px;line-height:1.7}
+.gd .corpo h2{font-size:23px;margin:26px 0 8px;letter-spacing:-.01em}
+.gd .corpo h2:first-child{margin-top:0}
+.gd .corpo p{margin:0 0 12px}
+.gd .ind{background:rgba(128,140,155,.14);border-radius:8px;padding:12px 16px;margin:14px 0 20px;font-size:15.5px}
+.gd .ind b{display:block;margin-bottom:4px}
+.gd .ind ol{padding-left:22px;margin:0}.gd .ind li{margin:3px 0}
+.gp{border-top:1px solid var(--bo);padding:20px 0 6px;margin-top:8px}
+.gp h3{font-size:20px;line-height:1.3;margin-bottom:10px}
+.gp .rg{margin:0 0 8px;font-size:16.5px}
+.gp .rg b{color:var(--te)}
+.gp ul{padding-left:20px;margin:6px 0 10px}.gp li{margin:4px 0}
+.gp .lim{background:rgba(128,140,155,.14);border-left:4px solid #9aa5b1;padding:8px 12px;border-radius:0 6px 6px 0;margin:8px 0 12px;font-size:16px}
+.gp .gb{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:12px 0 16px}
+.gp .gb .btg{display:inline-block;padding:11px 26px;font-size:16px}
+.gp .gb .gs{font-size:14.5px}
+.gd .faq h3{font-size:18px;margin:16px 0 4px}
+.gd .altre{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:10px}
+.gc{display:flex;flex-direction:column;gap:5px;border:1px solid var(--bo);border-radius:10px;padding:14px 16px;background:var(--ca);color:var(--te)}
+.gc:hover{text-decoration:none;border-color:#9aa5b1;box-shadow:var(--om)}
+.gc b{font-size:16.5px;line-height:1.3}.gc span{font-size:13.5px;color:var(--de);line-height:1.45}
+.gc .go{margin-top:auto;color:var(--li);font-weight:600;font-size:14px}
+.gl{margin:10px 0 0;font-size:15px;color:var(--de)}
+.gl a{margin-right:4px}
+@media(max-width:640px){.gd .corpo{padding:16px 14px;font-size:17px}.gp .gb .btg{width:100%;text-align:center}}
+
 .tess{flex-direction:column;gap:6px;padding:8px;text-align:center}
 .tess b{font-size:18px;letter-spacing:-.01em;color:#1f2933;max-width:92%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .tess svg{opacity:.55}
