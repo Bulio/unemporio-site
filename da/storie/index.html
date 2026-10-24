@@ -12,7 +12,7 @@ function sonda(a){var c=a.getAttribute('data-cat')||'altro',k=c+'|'+a.href,now=D
   setTimeout(function(){try{f.remove()}catch(e){}},10000)}catch(e){}
  fatte[k]={t:now,f:f};return f}
 function partita(f){try{return f.contentWindow.performance.getEntriesByType('resource').some(function(r){return r.name.indexOf('/cdn-cgi/rum')>-1})}catch(e){return false}}
-document.addEventListener('pointerdown',function(ev){var a=ev.target.closest(S);if(a)sonda(a)},true);
+document.addEventListener('pointerdown',function(ev){if(ev.pointerType!=='mouse'||ev.button==2)return;var a=ev.target.closest(S);if(a)sonda(a)},true);
 document.addEventListener('click',function(ev){var a=ev.target.closest(S);if(!a)return;var f=sonda(a);
  if(!f||(window.matchMedia&&matchMedia('(pointer:fine)').matches)||ev.metaKey||ev.ctrlKey||ev.shiftKey)return;
  ev.preventDefault();var u=a.href,t0=Date.now(),via=false;
