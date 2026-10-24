@@ -191,3 +191,8 @@ document.addEventListener('click',function(ev){var a=ev.target.closest(S);if(!a)
 })();
 
 (function(){var p=location.pathname;document.querySelectorAll('nav.t2 a,.t1-az a').forEach(function(a){var h=(a.getAttribute('href')||'').split('#')[0];if(h.length>1&&h.charAt(0)=='/'&&p.indexOf(h)==0)a.setAttribute('aria-current','page')})})();
+(function(){var f=document.querySelector('form[data-cat="newsletter"]');if(!f||!window.fetch)return;
+f.addEventListener('submit',function(ev){ev.preventDefault();var b=f.querySelector('button');b.disabled=true;b.textContent='Invio…';
+fetch(f.action,{method:'POST',body:new FormData(f),mode:'no-cors'}).then(function(){
+f.innerHTML='<p class="iscr-ok" role="status"><b>Quasi fatto!</b> Ti abbiamo scritto un\'email: apri il link per confermare l\'iscrizione. Se non la vedi, guarda nello spam o nelle «Promozioni».</p>';
+}).catch(function(){b.disabled=false;b.textContent='Riprova';});});})();
