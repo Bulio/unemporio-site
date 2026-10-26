@@ -99,6 +99,9 @@ body.home .strip{display:none}
 .coll a{display:block;color:inherit}.coll a:hover{text-decoration:none}.coll a:hover figcaption{color:var(--li)}
 .coll .nota{grid-column:2;margin-top:6px;align-self:end;font-size:13.5px;color:var(--de);line-height:1.5}
 .coll .nota{display:none}
+.coll.libri img,.coll.libri figure:nth-child(2) img{aspect-ratio:2/3;object-fit:contain;background:#fff}
+.eroe-2{padding:34px 0 6px}.eroe-2 .coll{grid-template-columns:repeat(3,1fr);max-width:760px}.eroe-2 .coll figure:nth-child(n){margin-top:0;grid-column:auto;grid-row:auto}
+.spot-l{margin:34px 0 10px}.spot-l h2{font-size:22px;margin-bottom:12px}.spot-l video{display:block;width:100%;max-width:880px;height:auto;aspect-ratio:16/9;border-radius:var(--r);background:#000;box-shadow:var(--om)}
 @media(max-width:900px){.eroe{padding:34px 0 40px}.eroe-g{grid-template-columns:1fr;gap:30px}.coll{grid-template-columns:repeat(3,1fr);gap:10px}
 .coll figure:nth-child(n){margin-top:0;grid-column:auto;grid-row:auto}.coll img,.coll figure:nth-child(2) img{aspect-ratio:3/4}.coll .nota{display:none}.coll figcaption{font-size:11.5px}}
 /* ── sezioni ── */
